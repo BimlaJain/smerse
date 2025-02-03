@@ -1,6 +1,6 @@
 
 import React from 'react'
-import Header from "../components/common/Header"
+import Header from "./common/Header"
 import CustomButton from './common/CustomButton'
 const Hero = () => {
     return (
@@ -19,7 +19,7 @@ const Hero = () => {
 
                 <p className='text-white text-center font-semibold md:text-4xl text-xl max-w-[637px] mx-auto md:pt-[10px] pt-[27px] leading-customXl'>FOR A WHEALTHIER LIFESTYLE. ANYTIME, ANYWHERE
                 </p>
-                <CustomButton text="Get Started" myClass=" md:!px-[33px] md:!py-[14px] !py-3 !px-5 !flex !mx-auto md:mt-11 max-sm:!mb-[85px] mt-[82px]" />
+                <CustomButton text="Get Started" myClass=" md:!px-[33px] md:!py-[14px] !py-3 !px-5 !flex !mx-auto md:mt-11 max-sm:!mb-[85px] mt-[82px] hover:!scale-105" />
             </div>
             <img className='absolute bottom-0 h-10 w-full' src="./assets/images/png/hero-bottom-line.png" alt="bottom-line" />
         </div>
