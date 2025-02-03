@@ -9,9 +9,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "light-black": "#0A0A2B",
+        "purple": "#952FFE",
+        "dark-pink": "#C641C6",
+        "dark-orange": "#FF676B",
+        "blue": "#0a0a2b"
       },
+      fontFamily: {
+        lato: ["Lato", "serif"],
+      },
+      fontSize: {
+        "customSm": "40px",
+      }
     },
   },
   plugins: [],
