@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "FOR A WHEALTHIER LIFESTYLE. ANYTIME, ANYWHERE",
     images: [
       {
-        url: "./meta-img.png",
+        url: "./meta-img.webp",
         width: 800,
         height: 600,
         alt: "Smerse Branding Image",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Smerse",
     description: "FOR A WHEALTHIER LIFESTYLE. ANYTIME, ANYWHERE",
-    images: ["./meta-img.png"],
+    images: [".//meta-img.webp"],
   },
 };
 

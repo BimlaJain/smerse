@@ -35,7 +35,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             <div>
-                <img className='max-w-[954px] max-xl:w-full xl:absolute xl:right-0 xl:bottom-[8%]' src="./assets/images/png/about-us-image.png" alt="about-us" />
+                <img className='max-w-[954px] max-xl:w-full xl:absolute xl:right-0 xl:bottom-[8%]' src="./assets/images/webp/about-us-image.webp" alt="about-us" />
             </div>
             </div>
             </div>
