@@ -9,14 +9,30 @@ interface HeaderItem {
 
 const Header = () => {
     const [open, setOpen] = useState<boolean>(false);
+    useEffect(() => {
+        const handleScroll = () => {
+            const navbar = document.getElementById("navbar");
+            if (navbar) {
+                if (window.scrollY > 100) {
+                    navbar.classList.add("!bg-black");
+                } else {
+                    navbar.classList.remove("!bg-black");
+                }
+            }
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
 
     useEffect(() => {
         document.body.style.overflow = open ? "hidden" : "auto";
     }, [open]);
 
     return (
-        <div className="bg-light-black/50">
-            <div className="container max-w-[1140px] mx-auto px-4 flex items-center justify-between md:py-4 py-[5px]">
+        <div id="navbar" className="bg-light-black/50 z-40 fixed top-0 left-0 w-full ">
+            <div className="container max-w-[1140px] mx-auto  px-4 flex items-center justify-between md:py-4 py-[5px]">
                 <a href="/">
                     <img
                         src="./assets/images/png/logo.png"
