@@ -2,7 +2,7 @@ import React from 'react'
 
 const Project = () => {
     return (
-        <div className='bg-blue xl:pt-[130px] pt-20 pb-[60px]'>
+        <div id='project' className='bg-blue xl:pt-[130px] pt-20 pb-[60px]'>
             <div className="container max-w-[1140px] mx-auto px-4">
                 <div className="lg:flex justify-between">
                     <div className='xl:max-w-[560px] max-xl:mx-auto max-xl:w-full lg:pt-[115px]'>

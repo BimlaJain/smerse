@@ -45,7 +45,7 @@ const Header = () => {
                         <li key={i}>
                             <a
                                 href={item.link}
-                                className="font-semibold text-white text-base relative after:absolute after:h-[2px] after:w-0 after:bg-white after:left-0 hover:after:w-full after:bottom-0 after:transition-all after:duration-300"
+                                className="font-semibold pb-[3px] text-white text-base relative after:absolute after:h-[2px] after:w-0 after:bg-white after:left-0 hover:after:w-full after:bottom-0 after:transition-all after:duration-300"
                             >
                                 {item.title}
                             </a>
@@ -59,16 +59,16 @@ const Header = () => {
                     className="lg:hidden z-50 cursor-pointer"
                     onClick={() => setOpen(!open)}
                 >
-                    <button className="overflow-hidden relative z-50 lg:hidden max-md:size-[39px] max-sm:size-[14px] max-lg:h-5 max-sm:h-4 flex flex-col justify-between items-center">
+                    <button className="overflow-hidden relative z-50 lg:hidden max-md:size-[39px] max-sm:size-[14px] max-lg:h-5 max-sm:h-[11px] flex flex-col justify-between items-center">
                         <span
-                            className={`bg-white rounded-full max-lg:w-[39px] max-sm:w-[14px] h-1 block transition-all duration-300 ${open ? "translate-x-10" : ""}`}
+                            className={`bg-white rounded-full max-lg:w-[39px] max-sm:w-[14px] h-1 max-sm:h-[3px] block transition-all duration-300 ${open ? "translate-x-10" : ""}`}
                         ></span>
                         <span
-                            className={`bg-white rounded-full after:rounded-lg max-lg:w-[39px] max-sm:w-[14px] h-1 block relative after:bg-transparent after:absolute after:top-0 after:left-0 after:w-full after:h-1 after:transition-all after:duration-300 transition-all duration-300 ${open ? "rotate-45 after:rotate-90 after:!bg-white" : ""
+                            className={`bg-white rounded-full after:rounded-lg max-lg:w-[39px] max-sm:w-[14px] h-1 max-sm:h-[3px] block relative after:bg-transparent after:absolute after:top-0 after:left-0 after:w-full after:h-1 after:transition-all after:duration-300 transition-all duration-300 ${open ? "rotate-45 after:rotate-90 after:!bg-white" : ""
                                 }`}
                         ></span>
                         <span
-                            className={`bg-white rounded-full max-lg:w-[39px] max-sm:w-[14px] h-1 block transition-all duration-300 ${open ? "-translate-x-10" : ""}`}
+                            className={`bg-white rounded-full max-lg:w-[39px] max-sm:w-[14px] h-1 max-sm:h-[3px] block transition-all duration-300 ${open ? "-translate-x-10" : ""}`}
                         ></span>
                     </button>
                 </div>

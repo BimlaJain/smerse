@@ -4,7 +4,7 @@ import { VISION_DATA } from "../../utils/helper";
 import Description from "../components/common/Description";
 const Vision = () => {
     return (
-        <div className="bg-blue -mb-1">
+        <div id="vision" className="bg-blue -mb-1">
             <div id="vision" className="max-w-[1176px] mx-auto px-8 max-sm:px-4">
                 <Heading text="THE VISION" myClass="!mx-auto" />
                 <div className="flex flex-wrap -mx-3 pt-[138px] max-lg:pt-32 max-sm:pt-[88px]">
