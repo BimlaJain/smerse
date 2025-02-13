@@ -36,3 +36,18 @@ export const HEADER_LIST = [
         link: "#faqs",
     },
 ];
+
+export const VISION_DATA = [
+    {
+        id: '01',
+        text: 'Our vision is to inspire the world for a "wellhealth" lifestyle by creating innovative, immersive, sport-to-earn fitness experiences. Storms sits at the intersection of five markets, each of which has strong growth potential: NFTs, AR, VR, Health, DeFi.',
+    },
+    {
+        id: '02',
+        text: 'As a result, we are moving one step further and creating the next generation of x-to-earn projects within the NFT and Web3 space that pays community members for remaining healthy and keeping active.',
+    },
+    {
+        id: '03',
+        text: 'We believe in the value of social-fi & game-fi elements & strive to create a fitness experience unlike any other existing today. We will be partnering with top fitness brands & companies to create long-lasting partnerships that will enhance & create access to fitness & health resources to our community members and NFT Holders.',
+    },
+];

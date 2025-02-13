@@ -20,6 +20,7 @@ export default {
       },
       fontSize: {
         "customSm": "40px",
+        "customMd": "36px",
       }
     },
   },
