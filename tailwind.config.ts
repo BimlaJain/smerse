@@ -13,7 +13,8 @@ export default {
         "purple": "#952FFE",
         "dark-pink": "#C641C6",
         "dark-orange": "#FF676B",
-        "blue": "#0a0a2b"
+        "blue": "#0a0a2b",
+        "gray": "#222240",
       },
       fontFamily: {
         lato: ["Lato", "serif"],

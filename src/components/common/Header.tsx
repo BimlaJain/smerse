@@ -59,16 +59,16 @@ const Header = () => {
                     className="lg:hidden z-50 cursor-pointer"
                     onClick={() => setOpen(!open)}
                 >
-                    <button className="overflow-hidden relative z-50 lg:hidden size-6 max-sm:h-5 flex flex-col justify-between items-center">
+                    <button className="overflow-hidden relative z-50 lg:hidden max-md:size-[39px] max-sm:size-[14px] max-lg:h-5 max-sm:h-4 flex flex-col justify-between items-center">
                         <span
-                            className={`bg-white rounded-full w-6 h-1 block transition-all duration-300 ${open ? "translate-x-10" : ""}`}
+                            className={`bg-white rounded-full max-lg:w-[39px] max-sm:w-[14px] h-1 block transition-all duration-300 ${open ? "translate-x-10" : ""}`}
                         ></span>
                         <span
-                            className={`bg-white rounded-full after:rounded-lg w-6 h-1 block relative after:bg-transparent after:absolute after:top-0 after:left-0 after:w-full after:h-1 after:transition-all after:duration-300 transition-all duration-300 ${open ? "rotate-45 after:rotate-90 after:!bg-white" : ""
+                            className={`bg-white rounded-full after:rounded-lg max-lg:w-[39px] max-sm:w-[14px] h-1 block relative after:bg-transparent after:absolute after:top-0 after:left-0 after:w-full after:h-1 after:transition-all after:duration-300 transition-all duration-300 ${open ? "rotate-45 after:rotate-90 after:!bg-white" : ""
                                 }`}
                         ></span>
                         <span
-                            className={`bg-white rounded-full w-6 h-1 block transition-all duration-300 ${open ? "-translate-x-10" : ""}`}
+                            className={`bg-white rounded-full max-lg:w-[39px] max-sm:w-[14px] h-1 block transition-all duration-300 ${open ? "-translate-x-10" : ""}`}
                         ></span>
                     </button>
                 </div>

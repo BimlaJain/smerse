@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutUs = () => {
     return (
-        <div className='bg-blue'>
+        <div className='bg-blue -mb-1'>
         <div className='relative xl:py-[210px] md:pt-24 pt-16 xl:flex items-center justify-center max-w-[1920px] mx-auto' >
                 <div className="container max-w-[1140px] px-4 relative z-10">
                     <div className='xl:max-w-[528px] max-xl:mx-auto max-xl:w-full'>
@@ -35,7 +35,8 @@ const AboutUs = () => {
                     </div>
                 </div>
             <div>
-                <img className='max-w-[954px] max-xl:w-full xl:absolute xl:right-0 xl:bottom-[8%]' src="./assets/images/webp/about-us-image.webp" alt="about-us" />
+                    <img className='xl:max-w-[954px] md:block hidden max-xl:w-full xl:absolute xl:right-0 xl:bottom-[2%]' src="./assets/images/webp/about-us-image.webp" alt="about-us" />
+                    <img className='md:hidden block' src="./assets/images/webp/about-sm-image.webp" alt="about" />
             </div>
             </div>
             </div>

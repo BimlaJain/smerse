@@ -7,4 +7,7 @@
 .button-shadow{
   box-shadow: 0px 4px 4px 0px #FF676B33 inset;
 }
+.bg-hero{
+  background-size: 170% 100%;
+}
 
